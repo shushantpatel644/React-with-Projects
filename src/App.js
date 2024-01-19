@@ -62,10 +62,14 @@ const App=()=>{
 //   ]
   // const itemTwoName = "SurfExcel";
 
+  function printProductData(data){
+    console.log(" i am inside app.js");
+    console.log(data)
+  }
 
-  return (
+  return ( 
     <div>
-      <NewProduct/>
+      <NewProduct pranay = {printProductData}/>
       <Products items={products}/>
     </div>
     // <Card>
