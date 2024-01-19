@@ -6,6 +6,7 @@ import Card from './components/Card';
 import Products from './components/Products';
 import ProductDate from './components/ProductDate';
 import ProductItem from './components/ProductItem';
+import NewProduct from './components/NewProduct';
 
 
 const App=()=>{
@@ -64,6 +65,7 @@ const App=()=>{
 
   return (
     <div>
+      <NewProduct/>
       <Products items={products}/>
     </div>
     // <Card>
