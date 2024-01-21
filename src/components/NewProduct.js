@@ -8,7 +8,11 @@ function NewProduct(props){
     function saveProduct(product){
         console.log("I am inside new product");
         console.log(product);
-
+        // calling new parent
+        // calling new parent
+        // calling new parent
+        // calling new parent
+        // calling new parent
         // calling new parent
 
         props.pranay(product);
