@@ -19,6 +19,12 @@ const App=()=>{
     },
     {
       id:'p2',
+      title:'Ghee',
+      amount:1000,
+      date: new Date(2021,12,10),
+    },
+    {
+      id:'p2',
       title:'Surf Excel',
       amount:220,
       date: new Date(2021,2,8),
@@ -60,7 +66,7 @@ const App=()=>{
 //       itemYear:"1928"
 //     },
 //   ]
-  // const itemTwoName = "SurfExcel";
+//   const itemTwoName = "SurfExcel";
 
   function printProductData(data){
     console.log(" i am inside app.js");
