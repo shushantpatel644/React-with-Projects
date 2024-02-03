@@ -6,3 +6,12 @@ html,
 body {
     overflow-x: hidden;
 }
+.Logo11{
+    width: 100px; /* Increase the width for a larger logo */
+  /* height: auto;  */
+  /* Maintain aspect ratio */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  margin-bottom: 10px; /* Add margin-bottom for a little extra height */
+  /* Add any additional styling here */
+}
