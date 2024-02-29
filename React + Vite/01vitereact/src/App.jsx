@@ -1,8 +1,8 @@
-
+import Chai from './chai';
 
 function App() {
   return (
-    <h1>chai aur react wtih vite | SP </h1>
+   <Chai/>
   )
 } 
-export default App
+export default App; 
